@@ -17,14 +17,14 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.md LICENSE]
 
-  s.add_dependency 'github-markup', '~> 1.3'
-  s.add_dependency 'redcarpet', '~> 3.2'
-  s.add_dependency 'RedCloth', '~> 4.2.7'
+  s.add_dependency 'github-markup', '~> 2.0'
+  s.add_dependency 'redcarpet', '~> 3.4'
+  s.add_dependency 'RedCloth', '~> 4.3'
 
   s.add_dependency 'coderay', '~> 1.1'
-  s.add_dependency 'nokogiri', '~> 1.8.0'
+  s.add_dependency 'nokogiri', '~> 1.8'
 
-  s.add_dependency 'wkhtmltopdf-binary', '~> 0.12.3'
+  s.add_dependency 'wkhtmltopdf-binary', '~> 0.12'
   s.add_dependency 'optiflag', '~> 0.7'
 
   s.add_development_dependency 'rake'
